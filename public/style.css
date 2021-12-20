@@ -1,0 +1,143 @@
+body {
+    background-color: aliceblue;
+    box-sizing: border-box;
+}
+
+
+.enter {
+
+    outline: none;
+    background: #ecf0f3;
+    padding: 10px;
+    padding-left: 20px;
+    height: 30px;
+    font-size: 14px;
+    border-radius: 50px;
+    box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px rgb(226, 226, 226);
+
+}
+
+#todo {
+    width: 90%;
+    border: none;
+    background-color: transparent;
+    font-family: 'Delius', cursive;
+    font-size: 1.5rem;
+}
+
+#todo::placeholder {
+    opacity: 0.5;
+}
+
+#todo:focus {
+    outline: none;
+}
+
+.fas {
+    cursor: pointer;
+    padding: 0 0.1rem;
+    
+}
+
+.fa-plus-circle {
+    font-size: 2rem;
+    vertical-align: bottom;
+    color: rgb(0, 165, 0);
+    margin-left: 1rem;
+}
+
+h1 {
+    font-family: 'Delius', cursive;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+.editTitle {
+    font-size: 1.2rem;
+    margin-left: 0.5rem;
+    vertical-align: 0.07rem;
+}
+
+.title {
+    text-align: center;
+    margin: 1rem 0 0.7rem;
+}
+
+
+table {
+    margin: auto;
+}
+
+tr > td:first-child > span:first-child {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+td > input {
+    vertical-align: bottom;
+}
+
+label>span {
+    display: inline-block;
+    max-width: 750px;
+    overflow: hidden;
+    font-size: 1.4rem;
+    font-family: 'Delius', cursive;
+}
+
+.fa-pencil-alt {
+    color: rgb(202, 125, 9);
+}
+
+.fa-trash-alt,
+.fa-minus-circle {
+    color: red;
+}
+
+.crossed {
+    text-decoration: line-through;
+}
+
+.fa-chevron-circle-up,
+.fa-chevron-circle-down {
+    color: rgb(64, 64, 151);
+}
+
+.fa-medal {
+    color: grey;
+    vertical-align: middle;
+}
+
+.ranking {
+    color: goldenrod;
+}
+
+.controls {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 1rem 0 0;
+}
+
+.controls i {
+    padding: 0 1rem;;
+}
+
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+#app {
+    padding: 1rem;
+    background-color: white;
+    border: 1px solid grey;
+    border-radius: 2rem;
+    box-shadow: 5px 6px 8px 1px rgba(0,0,0,0.49);
+-webkit-box-shadow: 5px 6px 8px 1px rgba(0,0,0,0.49);
+-moz-box-shadow: 5px 6px 8px 1px rgba(0,0,0,0.49);
+    margin: 2rem auto;
+    width: 900px;
+}
